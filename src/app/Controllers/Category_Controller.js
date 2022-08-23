@@ -20,7 +20,7 @@ class Category_Controller {
             })
         }
 
-        var { data } = req.body;
+        var data = req.body;
 
         Category.create(data, err => err ?
             res.status(400).json({ error: true, message: "Failed to register category" }) :
