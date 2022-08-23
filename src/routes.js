@@ -9,7 +9,7 @@ const UserController = require('./app/Controllers/User_Controller')
 const loginController = require('./app/Controllers/Login_Controller')
 const productController = require('./app/Controllers/Product_Controller')
 const categoryController = require('./app/Controllers/Category_Controller');
-const Category = require('./app/Models/Category');
+
 
 //===================
 // ROUTES
